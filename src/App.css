@@ -1,0 +1,43 @@
+.app {
+  text-align: center;
+  background: #ccc;
+  height: 100vh;
+}
+
+.slick-slide img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 50%;
+  margin: auto;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #09529b !important;
+}
+
+.slick-prev {
+  left: 40px !important;
+  z-index: 3;
+}
+
+.slick-next {
+  right: 40px !important;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
